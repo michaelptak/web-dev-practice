@@ -1,0 +1,42 @@
+/* Author: Michael Ptak */
+body {
+  background-color: #f4f4f4;
+  margin: 3% 10%;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: #44bca1;
+  color: white;
+  border: 3px solid gray;
+  padding: 5%;
+}
+
+img {
+  width: 70%;
+  border: 1px solid silver;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.section {
+  background-color: white;
+  margin: 5% 10%;
+  padding: 3%;
+}
+
+.first {
+  padding: 3%;
+  margin: 0%;
+}
+
+h2 {
+  color: grey;
+}
