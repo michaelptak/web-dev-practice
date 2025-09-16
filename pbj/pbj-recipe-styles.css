@@ -5,7 +5,7 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-h1 {
+.mainheader {
   text-align: center;
   background-color: #44bca1;
   color: white;
@@ -39,4 +39,18 @@ p {
 
 h2 {
   color: grey;
+}
+
+.bottom p {
+  font-size: 0.9em;
+  color: gray;
+}
+
+a {
+  color: #42b4e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
