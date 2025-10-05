@@ -2,3 +2,14 @@ body {
   background-color: #fafafa;
   padding-top: 70px;
 }
+
+.club-image {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+}
+
+footer {
+  background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
