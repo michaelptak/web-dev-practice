@@ -11,17 +11,30 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Simple Math Game</h1>
-    <p>Correctly answer the questions below as accurately as possible.</p>
-    <div id="equation">
-      <p>What is <span>8 * 2</span></p>
+  <div class="container bg-white p-4 my-4 border rounded shadow">
+    <h1 class="display-5 fw-bold text-center ">Simple Math Game</h1>
+    <p class="text-center lead">Correctly answer the questions below as accurately as possible.</p>
+    <div class="container">
+      <h1 class="display-1 text-center">What is <span class="font-monospace"><mark>8 * 2</mark>?</span></h1>
     </div>
+    <div class="container p-3">
+      <div class="d-grid gap-2 d-sm-flex mx-auto">
+        <button class="btn btn-primary btn-lg w-100" type="button">Num</button>
+        <button class="btn btn-primary btn-lg w-100" type="button">Num</button>
+        <button class="btn btn-primary btn-lg w-100" type="button">Num</button>
+        <button class="btn btn-primary btn-lg w-100" type="button">Num</button>
+        <button class="btn btn-primary btn-lg w-100" type="button">Num</button>
+      </div>
+    </div>
+    <h1 class="text-center text-primary">Score: 0/0</h1>
+    <!-- <h1 class="text-center text-secondary">Time: </h1> -->
+    <button class="btn btn-warning d-block mx-auto" type="">Reset Game</button>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="js/math-game.js"></script>
 </body>
 
 </html>
